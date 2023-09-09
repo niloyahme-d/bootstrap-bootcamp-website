@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before {
+    content: "";
+    display: block;
+    height: 60px;
+}
+
+.d-sm-flex img {
+    width: 140% ;
+}
+
+
+@media (min-width: 768px) {
+        .news-input {
+            width: 50%;
+        }
+}
+
+#map {
+    width: 600px; 
+    height: 350px;
+    border-radius: 10px;
+}
